@@ -231,7 +231,9 @@ class Clothing {
       		{ "Fox_Sert", "Sheriff Einsatz", 10, { "life_coplevel", "SCALAR", 4} },
 			{ "NONE", "---SWAT---", 0, { "", "", -1} },
 			{ "herpSERT1", "SWAT 1", 10, { "life_coplevel", "SCALAR", 1} },
-			{ "CG_SERT2", "SWAT 2", 10, { "life_coplevel", "SCALAR", 1} }
+			{ "CG_SERT2", "SWAT 2", 10, { "life_coplevel", "SCALAR", 1} },
+		{ "NONE", "---FBI---", 0, { "", "", -1} },
+		{ "A3L_ECSO_CID_Jacket3", "SWAT 1", 10, { "life_coplevel", "SCALAR", 1} },
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
