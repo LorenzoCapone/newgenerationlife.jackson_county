@@ -292,12 +292,12 @@ class Clothing {
 			{ "TCG_swatvest1", "SWAT Einsatz", 10, { "life_coplevel", "SCALAR", 4} },
 			{ "metroswat3", "SWAT Einsatz 2", 10, { "life_coplevel", "SCALAR", 4} },
 		{ "NONE", "---FBI---", 0, { "", "", -1} },
-		{ "FBI_TAN_TACTICAL", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
-		{ "FBI_BLK_TACTICAL", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
-		{ "A3L_fbivest1", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
-		{ "TRYK_V_tacv1LC_FBI_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
-		{ "TRYK_V_tacv1LC_FBI2_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
-		{ "TRYK_V_tacv1_FBI_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} }
+		{ "FBI_TAN_TACTICAL", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "FBI_BLK_TACTICAL", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_fbivest1", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "TRYK_V_tacv1LC_FBI_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "TRYK_V_tacv1LC_FBI2_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "TRYK_V_tacv1_FBI_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} }
 		
 		
         };
