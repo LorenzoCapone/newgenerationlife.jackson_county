@@ -56,7 +56,29 @@ class CarShops {
 			{"critgamin_smart_grise",{"", "", -1} },
 			{"critgamin_smart_violet",{"", "", -1} },
 			{"critgamin_smart_orange",{"", "", -1} },
-			{"critgamin_smart_vert",{"", "", -1} }
+			{"critgamin_smart_vert",{"", "", -1} },
+			{"Ark_LandCruiserred",{"", "", -1} },
+			{"Ark_LandCruiserblack",{"", "", -1} },
+			{"Ark_LandCruiserwhite",{"", "", -1} },
+			{"Ark_LandCruiserblue",{"", "", -1} },
+			{"Ark_LandCruiserpurple",{"", "", -1} },
+			{"Ark_LandCruisergreen",{"", "", -1} },
+			{"Ark_LandCruiseryellow",{"", "", -1} },
+			{"Ark_LandCruiserorange",{"", "", -1} },
+			{"Ark_LandCruiserdarkred",{"", "", -1} },
+			{"Ark_LandCruiserpink",{"", "", -1} },
+			{"Ark_LandCruiserbluepurpleperl",{"", "", -1} },
+			{"ivory_gti",{"", "", -1} },
+			{"Ark_Golf03red",{"", "", -1} },
+			{"Ark_Golf03black",{"", "", -1} },
+			{"Ark_Golf03white",{"", "", -1} },
+			{"Ark_Golf03blue",{"", "", -1} },
+			{"Ark_Golf03purple",{"", "", -1} },
+			{"Ark_Golf03green",{"", "", -1} },
+			{"Ark_Golf03yellow",{"", "", -1} },
+			{"Ark_Golf03orange",{"", "", -1} },
+			{"Ark_Golf03darkred",{"", "", -1} },
+			{"Ark_Golf03pink",{"", "", -1} }
         };
     };
     class civ_benz {
@@ -608,6 +630,48 @@ class LifeCfgVehicles {
 	class critgamin_smart_violet : critgamin_smart_civ {};
 	class critgamin_smart_orange : critgamin_smart_civ {};
 	class critgamin_smart_vert : critgamin_smart_civ {};
+	
+	class Ark_LandCruiserred {
+        vItemSpace = 75;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 25000;
+        textures[] = {};
+    };
+	
+	class Ark_LandCruiserblack : Ark_LandCruiserred {};
+	class Ark_LandCruiserwhite : Ark_LandCruiserred {};
+	class Ark_LandCruiserblue : Ark_LandCruiserred {};
+	class Ark_LandCruiserpurple : Ark_LandCruiserred {};
+	class Ark_LandCruisergreen : Ark_LandCruiserred {};
+	class Ark_LandCruiseryellow : Ark_LandCruiserred {};
+	class Ark_LandCruiserorange : Ark_LandCruiserred {};
+	class Ark_LandCruiserdarkred : Ark_LandCruiserred {};
+	class Ark_LandCruiserpink : Ark_LandCruiserred {};
+	class Ark_LandCruiserbluepurpleperl : Ark_LandCruiserred {};
+	
+	class ivory_gti {
+        vItemSpace = 75;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 15000;
+        textures[] = {};
+    };
+	
+	class Ark_Golf03red {
+        vItemSpace = 75;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 15000;
+        textures[] = {};
+    };
+	
+	class Ark_Golf03black : Ark_Golf03red {};
+	class Ark_Golf03white : Ark_Golf03red {};
+	class Ark_Golf03blue : Ark_Golf03red {};
+	class Ark_Golf03purple : Ark_Golf03red {};
+	class Ark_Golf03green : Ark_Golf03red {};
+	class Ark_Golf03yellow : Ark_Golf03red {};
+	class Ark_Golf03orange : Ark_Golf03red {};
+	class Ark_Golf03darkred : Ark_Golf03red {};
+	class Ark_Golf03pink : Ark_Golf03red {};
 	
     //Gebrauchtwagen Ende
 
