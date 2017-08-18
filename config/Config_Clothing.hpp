@@ -231,7 +231,18 @@ class Clothing {
       		{ "Fox_Sert", "Sheriff Einsatz", 10, { "life_coplevel", "SCALAR", 4} },
 			{ "NONE", "---SWAT---", 0, { "", "", -1} },
 			{ "herpSERT1", "SWAT 1", 10, { "life_coplevel", "SCALAR", 1} },
-			{ "CG_SERT2", "SWAT 2", 10, { "life_coplevel", "SCALAR", 1} }
+			{ "CG_SERT2", "SWAT 2", 10, { "life_coplevel", "SCALAR", 1} },
+		{ "NONE", "---FBI---", 0, { "", "", -1} },
+		{ "A3L_ECSO_CID_Jacket3", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_ECSO_CID_Jacket2", "FBI 2", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_ECSO_CID_Jacket1", "FBI 3", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_ECSO_Patrol_Jacket", "FBI 4", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "FBI_uni", "FBI 5", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_FBI_Jacket", "FBI 6", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_SERT_Tac_BLK", "FBI 7", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_SERT_Tac_BLU", "FBI 8", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "EF_HMFBI_1", "FBI 9", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "EF_HMFBI_2", "FBI 10", 10, { "life_coplevel", "SCALAR", 5} }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -241,7 +252,17 @@ class Clothing {
       		{ "TRYK_R_CAP_BLK", "Basecap", 10, { "life_coplevel", "SCALAR", 1} },
 			{ "NONE", "---SWAT---", 0, { "", "", -1} },
 			{ "TCG_swathelmet", "Swat-Helm", 10, { "life_coplevel", "SCALAR", 1} },
-			{ "CG_sert_H3", "Swat-Helm 2", 10, { "life_coplevel", "SCALAR", 1} }
+			{ "CG_sert_H3", "Swat-Helm 2", 10, { "life_coplevel", "SCALAR", 1} },
+		{ "NONE", "---FBI---", 0, { "", "", -1} },
+		{ "ALE_H_Cowboy_Black", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "TRYK_H_FBI", "FBI 2, 10, { "life_coplevel", "SCALAR", 5} },
+		{ "LSMS_cap_blue", "FBI 3, 10, { "life_coplevel", "SCALAR", 5} },
+		{ "LSMS_cap_blk", "FBI 4 10, { "life_coplevel", "SCALAR", 5} },
+		{ "ALE_H_NewEra_Black", "FBI 5 10, { "life_coplevel", "SCALAR", 5} },
+		{ "ALE_H_NewEra_Superman", "FBI 6 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_sargehat", "FBI 7 10, { "life_coplevel", "SCALAR", 5} },
+		{ "TRYK_H_woolhat", "FBI 8 10, { "life_coplevel", "SCALAR", 5} }
+								
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -269,7 +290,16 @@ class Clothing {
       		{ "SERT_VEST_GREEN", "Sheriff Einsatz", 10, { "life_coplevel", "SCALAR", 4} },
 			{ "NONE", "---SWAT---", 0, { "", "", -1} },
 			{ "TCG_swatvest1", "SWAT Einsatz", 10, { "life_coplevel", "SCALAR", 4} },
-			{ "metroswat3", "SWAT Einsatz 2", 10, { "life_coplevel", "SCALAR", 4} }
+			{ "metroswat3", "SWAT Einsatz 2", 10, { "life_coplevel", "SCALAR", 4} },
+		{ "NONE", "---FBI---", 0, { "", "", -1} },
+		{ "FBI_TAN_TACTICAL", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
+		{ "FBI_BLK_TACTICAL", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
+		{ "A3L_fbivest1", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
+		{ "TRYK_V_tacv1LC_FBI_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
+		{ "TRYK_V_tacv1LC_FBI2_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} },
+		{ "TRYK_V_tacv1_FBI_BK", "FBI 1", 10, { "life_coplevel", "SCALAR", 4} }
+		
+		
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
