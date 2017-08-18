@@ -45,7 +45,18 @@ class CarShops {
 			{"Jonzie_Mini_Cooper_R_spec",{"", "", -1} },
 			{"ivory_r34",{"", "", -1} },
 			{"ivory_wrx",{"", "", -1} },
-			{"ivory_supra_topsecret",{"", "", -1} }
+			{"ivory_supra_topsecret",{"", "", -1} },
+			{"critgamin_smart_civ",{"", "", -1} },
+			{"critgamin_smart_bleu",{"", "", -1} },
+			{"critgamin_smart_noir",{"", "", -1} },
+			{"critgamin_smart_bleufonce",{"", "", -1} },
+			{"critgamin_smart_rouge",{"", "", -1} },
+			{"critgamin_smart_jaune",{"", "", -1} },
+			{"critgamin_smart_rose",{"", "", -1} },
+			{"critgamin_smart_grise",{"", "", -1} },
+			{"critgamin_smart_violet",{"", "", -1} },
+			{"critgamin_smart_orange",{"", "", -1} },
+			{"critgamin_smart_vert",{"", "", -1} }
         };
     };
     class civ_benz {
@@ -202,7 +213,21 @@ class CarShops {
             {"A3L_Jeep_Cherokee_Red", {"", "", -1} },
             {"A3L_Jeep_Cherokee_RedMatte", {"", "", -1} },
             {"ivory_isf", {"", "", -1} },
-            {"ivory_evox", {"", "", -1} }
+            {"ivory_evox", {"", "", -1} },
+			{"ivory_gt500", {"", "", -1} },
+			{"Ark_427red_black", {"", "", -1} },
+			{"Ark_427white_black", {"", "", -1} },
+			{"Ark_427black_white", {"", "", -1} },
+			{"Ark_427yellow_black", {"", "", -1} },
+			{"Ark_427blue_white", {"", "", -1} },
+			{"Ark_427black_blue", {"", "", -1} },
+			{"Ark_427black_orange", {"", "", -1} },
+			{"Ark_427black_red", {"", "", -1} },
+			{"Ark_427orange_black", {"", "", -1} },
+			{"Ark_427red", {"", "", -1} },
+			{"Ark_427black", {"", "", -1} },
+			{"Ark_427white", {"", "", -1} },
+			{"Ark_427blue", {"", "", -1} }
         };
     };
     class civ_luxus{
@@ -565,6 +590,25 @@ class LifeCfgVehicles {
         price = 200000;
         textures[] = {};
     };
+	
+	class critgamin_smart_civ {
+        vItemSpace = 75;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 20000;
+        textures[] = {};
+    };
+	
+	class critgamin_smart_bleu : critgamin_smart_civ {};
+	class critgamin_smart_noir : critgamin_smart_civ {};
+	class critgamin_smart_bleufonce : critgamin_smart_civ {};
+	class critgamin_smart_rouge : critgamin_smart_civ {};
+	class critgamin_smart_jaune : critgamin_smart_civ {};
+	class critgamin_smart_rose : critgamin_smart_civ {};
+	class critgamin_smart_grise : critgamin_smart_civ {};
+	class critgamin_smart_violet : critgamin_smart_civ {};
+	class critgamin_smart_orange : critgamin_smart_civ {};
+	class critgamin_smart_vert : critgamin_smart_civ {};
+	
     //Gebrauchtwagen Ende
 
 	//Bugatti Anfang
@@ -766,6 +810,33 @@ class LifeCfgVehicles {
         price = 28000;
         textures[] = {};
     };
+	
+	class ivory_gt500 {
+        vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 35000;
+        textures[] = {};
+    };
+	
+	class Ark_427red_black {
+        vItemSpace = 45;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 35000;
+        textures[] = {};
+    };
+	
+	class Ark_427white_black : Ark_427red_black {};
+	class Ark_427black_white : Ark_427red_black {};
+	class Ark_427yellow_black : Ark_427red_black {};
+	class Ark_427blue_white : Ark_427red_black {};
+	class Ark_427black_blue : Ark_427red_black {};
+	class Ark_427black_orange : Ark_427red_black {};
+	class Ark_427black_red : Ark_427red_black {};
+	class Ark_427orange_black : Ark_427red_black {};
+	class Ark_427red : Ark_427red_black {};
+	class Ark_427black : Ark_427red_black {};
+	class Ark_427white : Ark_427red_black {};
+	class Ark_427blue : Ark_427red_black {};
 	
     //Neuwagen Ende
 
