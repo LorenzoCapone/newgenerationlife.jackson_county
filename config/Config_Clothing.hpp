@@ -656,16 +656,34 @@ class Clothing {
             { "NONE", "Uniform entfernen", 0, { "", "", -1 } },
             { "medic4_uni1", "EMS Uniform 1", 10, { "life_medicLevel", "SCALAR", 1 } },
             { "mr_uni1", "EMS Uniform 2", 10, { "life_medicLevel", "SCALAR", 4 } },
-			{ "POP_CHAW2_D", "ABC Schutz", 10, { "life_medicLevel", "SCALAR", 1 } }
+			{ "POP_CHAW2_D", "ABC Schutz", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS1", "EMS Uniform 3", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS2", "EMS Uniform 4", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS3", "EMS Uniform 5", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS4", "EMS Uniform 6", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS5", "EMS Uniform 7", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS6", "EMS Uniform 8", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS7", "EMS Uniform 9", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS8", "EMS Uniform 10", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS9", "EMS Uniform 11", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "CG_EMS10", "EMS Uniform 12", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "medic1_un1", "EMS Uniform 12", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "medic3_uni1", "EMS Uniform 12", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "medic5_uni1", "EMS Uniform 12", 10, { "life_medicLevel", "SCALAR", 1 } },
+		{ "medic6_uni1", "EMS Uniform 12", 10, { "life_medicLevel", "SCALAR", 1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "paramedic_cap", "", 10, { "", "", -1 } },
-            { "EMS_B_DC", "", 10, { "", "", -1 } }
+            { "EMS_B_DC", "", 10, { "", "", -1 } },
+		{ "EMS_B_Capt", "", 10, { "", "", -1 } },
+		{ "EMS_B_C", "", 10, { "", "", -1 } },
+		{ "EMS_B_LT", "", 10, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "Mask_M40", "", 10, { "", "", -1 } }
+            { "Mask_M40", "", 10, { "", "", -1 } },
+		{ "Masque_Chirurgical", "", 10, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Weste", 0, { "", "", -1 } },
