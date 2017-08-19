@@ -195,7 +195,6 @@ class Clothing {
             { "CUP_B_ACRPara_m95", "", 10, { "", "", -1 } }
         };
     };
-
     class cop {
         title = "STR_Shops_C_Police";
         license = "cop";
@@ -238,11 +237,8 @@ class Clothing {
 		{ "A3L_ECSO_CID_Jacket1", "FBI 3", 10, { "life_coplevel", "SCALAR", 5} },
 		{ "A3L_ECSO_Patrol_Jacket", "FBI 4", 10, { "life_coplevel", "SCALAR", 5} },
 		{ "FBI_uni", "FBI 5", 10, { "life_coplevel", "SCALAR", 5} },
-		{ "A3L_FBI_Jacket", "FBI 6", 10, { "life_coplevel", "SCALAR", 5} },
-		{ "A3L_SERT_Tac_BLK", "FBI 7", 10, { "life_coplevel", "SCALAR", 5} },
-		{ "A3L_SERT_Tac_BLU", "FBI 8", 10, { "life_coplevel", "SCALAR", 5} },
-		{ "EF_HMFBI_1", "FBI 9", 10, { "life_coplevel", "SCALAR", 5} },
-		{ "EF_HMFBI_2", "FBI 10", 10, { "life_coplevel", "SCALAR", 5} }
+		{ "EF_HMFBI_2", "FBI 8", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_FBI_Jacket", "FBI 9", 10, { "life_coplevel", "SCALAR", 5} }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -255,13 +251,13 @@ class Clothing {
 			{ "CG_sert_H3", "Swat-Helm 2", 10, { "life_coplevel", "SCALAR", 1} },
 		{ "NONE", "---FBI---", 0, { "", "", -1} },
 		{ "ALE_H_Cowboy_Black", "FBI 1", 10, { "life_coplevel", "SCALAR", 5} },
-		{ "TRYK_H_FBI", "FBI 2, 10, { "life_coplevel", "SCALAR", 5} },
-		{ "LSMS_cap_blue", "FBI 3, 10, { "life_coplevel", "SCALAR", 5} },
-		{ "LSMS_cap_blk", "FBI 4 10, { "life_coplevel", "SCALAR", 5} },
-		{ "ALE_H_NewEra_Black", "FBI 5 10, { "life_coplevel", "SCALAR", 5} },
-		{ "ALE_H_NewEra_Superman", "FBI 6 10, { "life_coplevel", "SCALAR", 5} },
-		{ "A3L_sargehat", "FBI 7 10, { "life_coplevel", "SCALAR", 5} },
-		{ "TRYK_H_woolhat", "FBI 8 10, { "life_coplevel", "SCALAR", 5} }
+		{ "TRYK_H_FBI", "FBI 2", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "LSMS_cap_blue", "FBI 3", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "LSMS_cap_blk", "FBI 4", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "ALE_H_NewEra_Black", "FBI 5", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "ALE_H_NewEra_Superman", "FBI 6", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "A3L_sargehat", "FBI 7", 10, { "life_coplevel", "SCALAR", 5} },
+		{ "TRYK_H_woolhat", "FBI 8", 10, { "life_coplevel", "SCALAR", 5} }
 								
         };
         goggles[] = {
