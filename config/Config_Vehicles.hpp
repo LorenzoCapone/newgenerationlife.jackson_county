@@ -464,8 +464,8 @@ class CarShops {
 			{ "CVPD_01", {"life_coplevel", "SCALAR", 5} },
 			{ "cg_trooperevo", {"life_coplevel", "SCALAR", 5} },
 			{ "DAR_SWATPolice", {"life_coplevel", "SCALAR", 5} },
-			{ "ivory_rev_marked", {"life_coplevel", "SCALAR", 8} },
-			{ "cg_h2_sert", {"life_coplevel", "SCALAR", 8} }
+			{ "ivory_rev_marked", {"life_coplevel", "SCALAR", 5} },
+			{ "cg_h2_sert", {"life_coplevel", "SCALAR", 5} }
         };
     };
     class cop_air {
